@@ -1,89 +1,143 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
 
-	<style type="text/css">
+<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" title="模板之家">模板之家</a></div>
 
-	::selection { background-color: #E13300; color: white; }
-	::-moz-selection { background-color: #E13300; color: white; }
+<!-- Start of Page Container -->
+<div class="page-container">
+	<div class="container">
+		<div class="row">
 
-	body {
-		background-color: #fff;
-		margin: 40px;
-		font: 13px/20px normal Helvetica, Arial, sans-serif;
-		color: #4F5155;
-	}
+			<!-- start of page content -->
+			<div class="span8 page-content">
 
-	a {
-		color: #003399;
-		background-color: transparent;
-		font-weight: normal;
-	}
+				<!-- Basic Home Page Template -->
+				<div class="row separator">
+					<section class="span4 articles-list">
+						<h3>Featured Articles</h3>
+						<ul class="articles">
+							<li class="article-entry standard">
+								<h4><a href="single.html">Integrating WordPress with Your Website</a></h4>
+								<span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Server &amp; Database">Server &amp; Database</a></span>
+								<span class="like-count">66</span>
+							</li>
+							<li class="article-entry standard">
+								<h4><a href="single.html">WordPress Site Maintenance</a></h4>
+								<span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
+								<span class="like-count">15</span>
+							</li>
+							<li class="article-entry video">
+								<h4><a href="single.html">Meta Tags in WordPress</a></h4>
+								<span class="article-meta">23 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
+								<span class="like-count">8</span>
+							</li>
+							<li class="article-entry image">
+								<h4><a href="single.html">WordPress in Your Language</a></h4>
+								<span class="article-meta">22 Feb, 2013 in <a href="#" title="View all posts in Advanced Techniques">Advanced Techniques</a></span>
+								<span class="like-count">6</span>
+							</li>
+							<li class="article-entry standard">
+								<h4><a href="single.html">Know Your Sources</a></h4>
+								<span class="article-meta">22 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
+								<span class="like-count">2</span>
+							</li>
+							<li class="article-entry standard">
+								<h4><a href="single.html">Validating a Website</a></h4>
+								<span class="article-meta">21 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
+								<span class="like-count">3</span>
+							</li>
+						</ul>
+					</section>
 
-	h1 {
-		color: #444;
-		background-color: transparent;
-		border-bottom: 1px solid #D0D0D0;
-		font-size: 19px;
-		font-weight: normal;
-		margin: 0 0 14px 0;
-		padding: 14px 15px 10px 15px;
-	}
 
-	code {
-		font-family: Consolas, Monaco, Courier New, Courier, monospace;
-		font-size: 12px;
-		background-color: #f9f9f9;
-		border: 1px solid #D0D0D0;
-		color: #002166;
-		display: block;
-		margin: 14px 0 14px 0;
-		padding: 12px 10px 12px 10px;
-	}
+					<section class="span4 articles-list">
+						<h3>Latest Articles</h3>
+						<ul class="articles">
+							<li class="article-entry standard">
+								<h4><a href="single.html">Integrating WordPress with Your Website</a></h4>
+								<span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Server &amp; Database">Server &amp; Database</a></span>
+								<span class="like-count">66</span>
+							</li>
+							<li class="article-entry standard">
+								<h4><a href="single.html">Using Javascript</a></h4>
+								<span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Advanced Techniques">Advanced Techniques</a></span>
+								<span class="like-count">18</span>
+							</li>
+							<li class="article-entry image">
+								<h4><a href="single.html">Using Images</a></h4>
+								<span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Designing in WordPress">Designing in WordPress</a></span>
+								<span class="like-count">7</span>
+							</li>
+							<li class="article-entry video">
+								<h4><a href="single.html">Using Video</a></h4>
+								<span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in WordPress Plugins">WordPress Plugins</a></span>
+								<span class="like-count">7</span>
+							</li>
+							<li class="article-entry standard">
+								<h4><a href="single.html">WordPress Site Maintenance</a></h4>
+								<span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
+								<span class="like-count">15</span>
+							</li>
+							<li class="article-entry standard">
+								<h4><a href="single.html">WordPress CSS Information and Techniques</a></h4>
+								<span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Theme Development">Theme Development</a></span>
+								<span class="like-count">1</span>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</div>
+			<!-- end of page content -->
 
-	#body {
-		margin: 0 15px 0 15px;
-	}
 
-	p.footer {
-		text-align: right;
-		font-size: 11px;
-		border-top: 1px solid #D0D0D0;
-		line-height: 32px;
-		padding: 0 10px 0 10px;
-		margin: 20px 0 0 0;
-	}
+			<!-- start of sidebar -->
+			<aside class="span4 page-sidebar">
 
-	#container {
-		margin: 10px;
-		border: 1px solid #D0D0D0;
-		box-shadow: 0 0 8px #D0D0D0;
-	}
-	</style>
-</head>
-<body>
+				<section class="widget">
+					<div class="support-widget">
+						<h3 class="title">Support</h3>
+						<p class="intro">Need more support? If you did not found an answer, contact us for further help.</p>
+					</div>
+				</section>
 
-<div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
+				<section class="widget">
+					<div class="quick-links-widget">
+						<h3 class="title">Quick Links</h3>
+						<ul id="menu-quick-links" class="menu clearfix">
+							<li><a href="index-2.html">Home</a></li>
+							<li><a href="articles-list.html">Articles List</a></li>
+							<li><a href="faq.html">FAQs</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</section>
 
-	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+				<section class="widget">
+					<h3 class="title">Tags</h3>
+					<div class="tagcloud">
+						<a href="#" class="btn btn-mini">basic</a>
+						<a href="#" class="btn btn-mini">beginner</a>
+						<a href="#" class="btn btn-mini">blogging</a>
+						<a href="#" class="btn btn-mini">colour</a>
+						<a href="#" class="btn btn-mini">css</a>
+						<a href="#" class="btn btn-mini">date</a>
+						<a href="#" class="btn btn-mini">design</a>
+						<a href="#" class="btn btn-mini">files</a>
+						<a href="#" class="btn btn-mini">format</a>
+						<a href="#" class="btn btn-mini">header</a>
+						<a href="#" class="btn btn-mini">images</a>
+						<a href="#" class="btn btn-mini">plugins</a>
+						<a href="#" class="btn btn-mini">setting</a>
+						<a href="#" class="btn btn-mini">templates</a>
+						<a href="#" class="btn btn-mini">theme</a>
+						<a href="#" class="btn btn-mini">time</a>
+						<a href="#" class="btn btn-mini">videos</a>
+						<a href="#" class="btn btn-mini">website</a>
+						<a href="#" class="btn btn-mini">wordpress</a>
+					</div>
+				</section>
 
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+			</aside>
+			<!-- end of sidebar -->
+		</div>
 	</div>
-
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 </div>
-
-</body>
-</html>
+<!-- End of Page Container -->
