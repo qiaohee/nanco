@@ -47,7 +47,6 @@
 						</ul>
 					</section>
 
-
 					<section class="span4 articles-list">
 						<h3>Latest Articles</h3>
 						<ul class="articles">
@@ -84,6 +83,60 @@
 						</ul>
 					</section>
 				</div>
+
+				<div class="row home-category-list-area">
+					<div class="span8">
+						<h2>Categories</h2>
+					</div>
+				</div>
+
+				<div class="row-fluid top-cats">
+
+					<section class="span4">
+						<h4 class="category"><a href="#">WordPress for Beginners</a></h4>
+						<div class="category-description">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
+						</div>
+					</section>
+
+					<section class="span4">
+						<h4 class="category"><a href="#">Designing in WordPress</a></h4>
+						<div class="category-description">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet</p>
+						</div>
+					</section>
+
+					<section class="span4">
+						<h4 class="category"><a href="#">Theme Development</a></h4>
+						<div class="category-description">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+						</div>
+					</section>
+				</div>
+				<div class="row-fluid top-cats">
+
+					<section class="span4">
+						<h4 class="category"><a href="#">Website Dev</a></h4>
+						<div class="category-description">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam</p>
+						</div>
+					</section>
+
+					<section class="span4">
+						<h4 class="category">
+							<a href="#">WordPress Plugins</a></h4>
+						<div class="category-description">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
+						</div>
+					</section>
+
+					<section class="span4">
+						<h4 class="category"><a href="#">Advanced Techniques</a></h4>
+						<div class="category-description"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut</p>
+						</div>
+					</section>
+				</div>
+
 			</div>
 			<!-- end of page content -->
 
