@@ -59,11 +59,11 @@
             <nav class="main-nav">
                 <div class="menu-top-menu-container">
                     <ul id="menu-top-menu" class="clearfix">
-                        <li class="current-menu-item"><a href="index-2.html">Home</a></li>
-                        <li><a href="home-categories-description.html">Home 2</a></li>
-                        <li><a href="home-categories-articles.html">Home 3</a></li>
-                        <li><a href="articles-list.html">Articles List</a></li>
-                        <li><a href="faq.html">FAQs</a></li>
+                        <li class="current-menu-item"><a href="index-2.html">编程入门教程</a></li>
+                        <li><a href="home-categories-description.html">参考手册</a></li>
+                        <li><a href="home-categories-articles.html">编程实例</a></li>
+                        <li><a href="articles-list.html">问答</a></li>
+                        <li><a href="faq.html">职位</a></li>
                         <li><a href="#">Skins</a>
                             <ul class="sub-menu">
                                 <li><a href="blue-skin.html">Blue Skin</a></li>
@@ -93,12 +93,12 @@
 <!-- Start of Search Wrapper -->
 <div class="search-area-wrapper">
     <div class="search-area container">
-        <h3 class="search-header">Have a Question?</h3>
-        <p class="search-tag-line">If you have any question you can ask below or enter what you are looking for!</p>
+        <h3 class="search-header">有一个问题吗?</h3>
+        <p class="search-tag-line">如果你有任何问题，你可以问下面或进入你正在寻找的!</p>
 
         <form id="search-form" class="search-form clearfix" method="get" action="#" autocomplete="off">
-            <input class="search-term required" type="text" id="s" name="s" placeholder="Type your search terms here" title="* Please enter a search term!" />
-            <input class="search-btn" type="submit" value="Search" />
+            <input class="search-term required" type="text" id="s" name="s" placeholder="搜索您感兴趣的内容、教程或需要查阅的技术文档、参考手册..." title="* 请输入一个搜索项!" />
+            <input class="search-btn" type="submit" value="搜索" />
             <div id="search-error-container"></div>
         </form>
     </div>
