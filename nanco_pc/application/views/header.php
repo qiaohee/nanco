@@ -49,10 +49,10 @@
 
             <div class="logo-container">
                 <!-- Website Logo -->
-                <a href="index-2.html"  title="Knowledge Base Theme">
+                <a href="/"  title="Knowledge Base Theme">
                     <img src="<?php echo base_url('/skin/images/logo.png')?>" alt="Knowledge Base Theme">
                 </a>
-                <span class="tag-line">Premium WordPress Theme</span>
+                <span class="tag-line">学技术查资料,从这里开始!</span>
             </div>
 
 
