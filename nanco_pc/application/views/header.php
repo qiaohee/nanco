@@ -18,6 +18,7 @@
     <link rel='stylesheet' id='responsive-css-css'  href='<?php echo base_url('/skin/css/responsive5152.css?ver=1.0')?>' type='text/css' media='all' />
     <link rel='stylesheet' id='pretty-photo-css-css'  href='<?php echo base_url('/skin/js/prettyphoto/prettyPhotoaeb9.css?ver=3.1.4')?>' type='text/css' media='all' />
     <link rel='stylesheet' id='main-css-css'  href='<?php echo base_url('/skin/css/main5152.css?ver=1.0')?>' type='text/css' media='all' />
+    <link rel='stylesheet' id='red-skin-css'  href='<?php echo base_url('/skin/css/red-skin5152.css?ver=1.0')?>' type='text/css' media='all' />
     <link rel='stylesheet' id='custom-css-css'  href='<?php echo base_url('/skin/css/custom5152.html?ver=1.0')?>' type='text/css' media='all' />
 
 

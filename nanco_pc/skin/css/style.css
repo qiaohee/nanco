@@ -1,4 +1,9 @@
 .item-top
 {
+    margin-bottom: 5px;
     background-color: #f6f6f6;
+}
+.category-description
+{
+    padding: 0 10px;
 }
