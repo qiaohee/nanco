@@ -4,16 +4,6 @@
         <div class="row">
 
             <div class="span3">
-                <section class="widget">
-                    <h3 class="title">How it works</h3>
-                    <div class="textwidget">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
-                    </div>
-                </section>
-            </div>
-
-            <div class="span3">
                 <section class="widget"><h3 class="title">Categories</h3>
                     <ul>
                         <li><a href="#" title="Lorem ipsum dolor sit amet,">Advanced Techniques</a> </li>

@@ -9,14 +9,65 @@
 			<!-- start of page content -->
 			<div class="span8 page-content">
 
+				<div class="row home-category-list-area">
+					<div class="span8">
+						<h2>HTML / CSS</h2>
+					</div>
+				</div>
+
+				<div class="row-fluid top-cats">
+
+					<section class="span4 item-top">
+						<h4 class="category"><a href="#">【学习 HTML】</a></h4>
+						<div class="category-description">
+							<p>HTML，即超文本标记语言（Hyper Text Markup Language）</p>
+						</div>
+					</section>
+
+					<section class="span4 item-top">
+						<h4 class="category"><a href="#">【学习 HTML】</a></h4>
+						<div class="category-description">
+							<p>HTML，即超文本标记语言（Hyper Text Markup Language）</p>
+						</div>
+					</section>
+					<section class="span4 item-top">
+						<h4 class="category"><a href="#">【学习 HTML】</a></h4>
+						<div class="category-description">
+							<p>HTML，即超文本标记语言（Hyper Text Markup Language）</p>
+						</div>
+					</section>
+				</div>
+				<div class="row-fluid top-cats">
+
+					<section class="span4 item-top">
+						<h4 class="category"><a href="#">【学习 HTML】</a></h4>
+						<div class="category-description">
+							<p>HTML，即超文本标记语言（Hyper Text Markup Language）</p>
+						</div>
+					</section>
+
+					<section class="span4 item-top">
+						<h4 class="category"><a href="#">【学习 HTML】</a></h4>
+						<div class="category-description">
+							<p>HTML，即超文本标记语言（Hyper Text Markup Language）</p>
+						</div>
+					</section>
+
+					<section class="span4 item-top">
+						<h4 class="category"><a href="#">【学习 HTML】</a></h4>
+						<div class="category-description">
+							<p>HTML，即超文本标记语言（Hyper Text Markup Language）</p>
+						</div>
+					</section>
+				</div>
+
 				<!-- Basic Home Page Template -->
 				<div class="row separator">
 					<section class="span4 articles-list">
 						<h3>Featured Articles</h3>
 						<ul class="articles">
 							<li class="article-entry standard">
-								<h4><a href="single.html">Integrating WordPress with Your Website</a></h4>
-								<span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Server &amp; Database">Server &amp; Database</a></span>
+								<h4><a href="single.html">如何清除HTML样式？</a></h4>
 								<span class="like-count">66</span>
 							</li>
 							<li class="article-entry standard">
@@ -81,59 +132,6 @@
 								<span class="like-count">1</span>
 							</li>
 						</ul>
-					</section>
-				</div>
-
-				<div class="row home-category-list-area">
-					<div class="span8">
-						<h2>Categories</h2>
-					</div>
-				</div>
-
-				<div class="row-fluid top-cats">
-
-					<section class="span4">
-						<h4 class="category"><a href="#">WordPress for Beginners</a></h4>
-						<div class="category-description">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
-						</div>
-					</section>
-
-					<section class="span4">
-						<h4 class="category"><a href="#">Designing in WordPress</a></h4>
-						<div class="category-description">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet</p>
-						</div>
-					</section>
-
-					<section class="span4">
-						<h4 class="category"><a href="#">Theme Development</a></h4>
-						<div class="category-description">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
-						</div>
-					</section>
-				</div>
-				<div class="row-fluid top-cats">
-
-					<section class="span4">
-						<h4 class="category"><a href="#">Website Dev</a></h4>
-						<div class="category-description">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam</p>
-						</div>
-					</section>
-
-					<section class="span4">
-						<h4 class="category">
-							<a href="#">WordPress Plugins</a></h4>
-						<div class="category-description">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
-						</div>
-					</section>
-
-					<section class="span4">
-						<h4 class="category"><a href="#">Advanced Techniques</a></h4>
-						<div class="category-description"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut</p>
-						</div>
 					</section>
 				</div>
 
