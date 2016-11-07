@@ -10,9 +10,6 @@
                         <li><a href="#" title="Lorem ipsum dolor sit amet,">Designing in WordPress</a></li>
                         <li><a href="#" title="Lorem ipsum dolor sit amet,">Server &amp; Database</a></li>
                         <li><a href="#" title="Lorem ipsum dolor sit amet, ">Theme Development</a></li>
-                        <li><a href="#" title="Lorem ipsum dolor sit amet,">Website Dev</a></li>
-                        <li><a href="#" title="Lorem ipsum dolor sit amet,">WordPress for Beginners</a></li>
-                        <li><a href="#" title="Lorem ipsum dolor sit amet, ">WordPress Plugins</a></li>
                     </ul>
                 </section>
             </div>
@@ -47,7 +44,7 @@
             <div class="row">
                 <div class="span6">
                     <p class="copyright">
-                        Copyright © 2013. All Rights Reserved by KnowledgeBase.Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+                        Copyright © 2013. All Rights Reserved by KnowledgeBase
                     </p>
                 </div>
                 <div class="span6">
