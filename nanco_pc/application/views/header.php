@@ -8,7 +8,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Knowledge Base Theme</title>
+    <title>学的不仅是技术，更是梦想！</title>
+
+    <meta name="keywords" content="w3c,w3cschool,HTML,CSS,PHP,DOM,JavaScript,jQuery,XML,AJAX,ASP.NET,W3C,MySQL,SQL,jquery mobile,bootstrap,Python,jquery easyui,jquery ui,angularjs">
+    <meta name="description" content="专业的编程入门学习及技术文档查询网站, 包括HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。 同时本站中也提供了大量的在线实例，通过实例，您可以更好的学习编程。">
 
     <link rel="shortcut icon" href="images/favicon.png" />
 
@@ -97,8 +100,8 @@
         <h3 class="search-header">有一个问题吗?</h3>
         <p class="search-tag-line">如果你有任何问题，你可以问下面或进入你正在寻找的!</p>
 
-        <form id="search-form" class="search-form clearfix" method="get" action="#" autocomplete="off">
-            <input class="search-term required" type="text" id="s" name="s" placeholder="搜索您感兴趣的内容、教程或需要查阅的技术文档、参考手册..." title="* 请输入一个搜索项!" />
+        <form id="search-form" class="search-form clearfix" method="get" target="_blank" action="https://www.baidu.com/s?wd" autocomplete="off">
+            <input class="search-term required" type="text" id="s" name="wd" placeholder="搜索您感兴趣的内容、教程或需要查阅的技术文档、参考手册..." title="* 请输入一个搜索项!" />
             <input class="search-btn" type="submit" value="搜索" />
             <div id="search-error-container"></div>
         </form>
