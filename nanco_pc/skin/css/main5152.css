@@ -434,7 +434,7 @@ li.comment > article .avatar {
   border-bottom: 1px solid #f2f2f2;
 }
 .widget ul li:last-child {
-  border-bottom: none;
+  border-bottom: 1px solid #efefef;
 }
 .widget > div > ul,
 .widget > ul {
@@ -453,24 +453,29 @@ li.comment > article .avatar {
 }
 
 .quick-links-widget {
-  border: 1px solid #d7d9dc;
+  /*border: 1px solid #d7d9dc;*/
   padding: 10px 15px 15px;
+  padding-left:0
 }
 .quick-links-widget h3 {
   margin: 0;
   padding: 0;
+  padding-top: 1px;
+  padding-bottom:10px;
 }
 .quick-links-widget .menu {
   margin: 0;
   padding: 0;
+  padding-top:11px;
 }
 .quick-links-widget .menu > li {
   border-bottom: none;
-  padding: 5px 5px 5px 20px;
   background-position: 5px 13px;
   float: left;
-  width: 35%;
-  margin-right: 5%;
+  width: 80%;
+  border: 1px solid #efefef;
+  border-bottom: none;
+  margin-bottom: 2px;
 }
 .quick-links-widget .sub-menu {
   display: none;
