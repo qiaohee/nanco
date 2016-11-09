@@ -8,7 +8,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>w3crun - 查bug , 从这里开始!</title>
+    <title>W3Crun - 查BUG , 从这里开始!</title>
 
     <meta name="keywords" content="w3crun,w3c,w3cschool,HTML,CSS,PHP,DOM,JavaScript,jQuery,XML,AJAX,ASP.NET,W3C,MySQL,SQL,jquery mobile,bootstrap,Python,jquery easyui,jquery ui,angularjs">
     <meta name="description" content="w3crun是一个BUG查询及文档查询网站, 包括HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识和BUG实例。">
@@ -53,7 +53,7 @@
             <div class="logo-container">
                 <!-- Website Logo -->
                 <a href="/"  title="Knowledge Base Theme">
-                    <img src="<?php echo base_url('/skin/images/logo.png')?>" alt="Knowledge Base Theme">
+                    <img src="<?php echo base_url('/skin/images/logo1.png')?>" alt="Knowledge Base Theme">
                 </a>
                 <span class="tag-line">查bug,从这里开始!</span>
             </div>
