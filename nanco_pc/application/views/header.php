@@ -11,7 +11,7 @@
     <title>W3Crun - 查BUG , 从这里开始!</title>
 
     <meta name="keywords" content="w3crun,w3c,w3cschool,HTML,CSS,PHP,DOM,JavaScript,jQuery,XML,AJAX,ASP.NET,W3C,MySQL,SQL,jquery mobile,bootstrap,Python,jquery easyui,jquery ui,angularjs">
-    <meta name="description" content="w3crun是一个BUG查询及文档查询网站, 包括HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识和BUG实例。">
+    <meta name="description" content="w3crun是一个BUG查询及文档查询网站, 包括HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识文档和BUG实例。">
 
     <link rel="shortcut icon" href="images/favicon.png" />
 
