@@ -63,27 +63,11 @@
             <nav class="main-nav">
                 <div class="menu-top-menu-container">
                     <ul id="menu-top-menu" class="clearfix">
-                        <li class="current-menu-item"><a href="index-2.html">编程入门教程</a></li>
-                        <li><a href="home-categories-description.html">参考手册</a></li>
-                        <li><a href="home-categories-articles.html">编程实例</a></li>
-                        <li><a href="articles-list.html">问答</a></li>
-                        <li><a href="faq.html">职位</a></li>
-                        <li><a href="#">Skins</a>
-                            <ul class="sub-menu">
-                                <li><a href="blue-skin.html">Blue Skin</a></li>
-                                <li><a href="green-skin.html">Green Skin</a></li>
-                                <li><a href="red-skin.html">Red Skin</a></li>
-                                <li><a href="index-2.html">Default Skin</a></li>
-                            </ul>
+                        <li class="current-menu-item"><a href="#html">编程入门教程</a></li>
+                        <li><a target="_blank" href="http://fanyi.baidu.com/#en/zh/">翻译</a></li>
+                        <li><a target="_blank" href="http://www.jetbrains.com/products.html?fromMenu">开发工具</a>
                         </li>
-                        <li><a href="#">More</a>
-                            <ul class="sub-menu">
-                                <li><a href="full-width.html">Full Width</a></li>
-                                <li><a href="elements.html">Elements</a></li>
-                                <li><a href="page.html">Sample Page</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?kw=php&sm=0&p=1">职位</a></li>
                     </ul>
                 </div>
             </nav>

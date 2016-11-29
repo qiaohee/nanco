@@ -24,4 +24,11 @@ class Main extends CI_Controller {
 		$this->load->view('index');
 		$this->load->view('footer');
 	}
+
+	public function search()
+	{
+		$this->load->view('header');
+		$this->load->view('index');
+		$this->load->view('footer');
+	}
 }
