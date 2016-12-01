@@ -41,6 +41,13 @@
     <script type='text/javascript' src='<?php echo base_url('/skin/js/custom.js')?>'></script>
 
 </head>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4326202333888021",
+        enable_page_level_ads: true
+    });
+</script>
 
 <body>
 

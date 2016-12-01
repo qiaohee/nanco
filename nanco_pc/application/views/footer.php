@@ -23,14 +23,6 @@
                 </section>
             </div>
 
-            <div class="span3">
-                <section class="widget">
-                    <h3 class="title">Flickr Photos</h3>
-                    <div class="flickr-photos" id="basicuse">
-                    </div>
-                </section>
-            </div>
-
         </div>
     </div>
     <!-- end of #footer -->
