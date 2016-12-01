@@ -7,11 +7,10 @@
     <!-- META TAGS -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $title;?></title>
 
-    <title>W3CRUN - 查BUG , 从这里开始!</title>
-
-    <meta name="keywords" content="w3crun,w3c,w3cschool,HTML,CSS,PHP,DOM,JavaScript,jQuery,XML,AJAX,ASP.NET,W3C,MySQL,SQL,jquery mobile,bootstrap,Python,jquery easyui,jquery ui,angularjs">
-    <meta name="description" content="w3crun是一个BUG查询及文档查询网站, 包括HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识文档和BUG实例。">
+    <meta name="keywords" content="<?php echo $keywords;?>">
+    <meta name="description" content="<?php echo $description;?>">
 
     <link rel="shortcut icon" href="images/favicon.png" />
 
