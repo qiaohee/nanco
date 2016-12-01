@@ -9,16 +9,9 @@
 					<div class="quick-links-widget">
 						<h3 class="title">全部教程</h3>
 						<ul id="menu-quick-links" class="menu clearfix">
-							<li><a href="#html">HTML / CSS</a></li>
-							<li><a href="#js">JavaScript</a></li>
-							<li><a href="#server">服务端</a></li>
-							<li><a href="#database">数据库</a></li>
-							<li><a href="#mobile">移动端</a></li>
-							<li><a href="#xml">XML 教程</a></li>
-							<li><a href="#asp">ASP.NET</a></li>
-							<li><a href="#web">Web Services</a></li>
-							<li><a href="#tool">开发工具</a></li>
-							<li><a href="#http">网站建设</a></li>
+							<?php foreach($type as $k=>$v){?>
+							<li><a href="<?php echo $v['linkurl'];?>"><?php echo $v['typename'];?></a></li>
+							<?php }?>
 						</ul>
 					</div>
 				</section>

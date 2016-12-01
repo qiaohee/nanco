@@ -24,18 +24,12 @@ class Main extends CI_Controller {
 	 */
 	public function index()
 	{
-		$type = $this->comm->find("type");
-		dump($type);
-		exit;
-		$this->load->view('header');
-		$this->load->view('index');
-		$this->load->view('footer');
-	}
+		//分类
+		$type = $this->comm->findAll("type",array("parentid"=>0));
+		$data['type'] = $type;
 
-	public function html()
-	{
-		$this->load->view('header');
-		$this->load->view('html');
+		$this->load->view('header',$data);
+		$this->load->view('index');
 		$this->load->view('footer');
 	}
 
