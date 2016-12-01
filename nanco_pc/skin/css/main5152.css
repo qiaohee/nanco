@@ -477,7 +477,7 @@ li.comment > article .avatar {
 .quick-links-widget .menu > li {
   border-bottom: none;
   float: left;
-  width: 90%;
+  width: 98%;
   border-top: 1px solid #efefef;
   border-bottom: 1px solid #efefef;
 
@@ -485,6 +485,11 @@ li.comment > article .avatar {
   border-bottom: none;
   margin-bottom: 2px;
 }
+
+.quick-links-widget .menu > li > a{
+  display: block;
+}
+
 .quick-links-widget .sub-menu {
   display: none;
 }
