@@ -5,9 +5,11 @@
 
             <div class="span3">
                 <section class="widget"><h3 class="title">Categories</h3>
-                    <ul>
-                        <li>No Tweets loaded !</li>
-                    </ul>
+                    <div id="twitter_update_list">
+                        <ul>
+                            <li>No Tweets loaded !</li>
+                        </ul>
+                    </div>
                 </section>
             </div>
 

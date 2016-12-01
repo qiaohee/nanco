@@ -23,7 +23,7 @@
 			<div class="span8 page-content">
 
 				<article class="type-post format-standard hentry clearfix">
-					<h3>HTML 教程- (HTML5 标准)</h3>
+					<h1>HTML 教程- (HTML5 标准)</h1>
 
 					<div class="post-meta clearfix">
 						<span class="date">25 Feb, 2013</span>
@@ -35,13 +35,13 @@
 					<div>
 					<p>您可以使用 HTML 来建立自己的 WEB 站点。</p>
 					<p>在本教程中，您将学习如何使用 HTML 来创建站点。</p>
-					<p>HTML 很容易学习！相信您能很快学会它！</p>
+					<p>HTML 易学习，相信您能很快学会它，切记注意细节！</p>
 					</div>
 
 					<h4>HTML 实例</h4>
 					<div>
 						<p>本教程包含了数百个 HTML 实例。</p>
-						<p>使用本站的编辑器，您可以轻松实现在线修改 HTML，并查看实例运行结果。</p>
+						<p>使用本站的实例，您可以轻松的查看运行结果。</p>
 					</div>
 					<div class="html_mind">
 						<p><i>注意：对于中文网页需要使用<span> <</span>meta charset="utf-8"<span>> </span> 声明编码，否则会出现乱码。</i></p>
@@ -63,7 +63,7 @@
 					</div>
 					<br>
 					<br>
-					<a href="/html/html_intro.html">开始学习HTML!</a>
+					<a class="html_a" href="/html/html_intro.html">开始学习HTML!</a>
 
 				</article>
 
