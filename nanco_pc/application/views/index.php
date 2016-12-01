@@ -33,7 +33,7 @@
 					<section class="span4 item-top">
 						<h4 class="category">
 							<img height="36" width="36" src="<?php echo base_url('/skin/images/icon/html.png')?>">
-							<a target="_blank" href="http://www.runoob.com/html/html-tutorial.html">【学习 HTML】</a>
+							<a target="_blank" href="<?php echo site_url("/html/html_tutorial");?>">【学习 HTML】</a>
 						</h4>
 						<div class="category-description">
 							<p>HTML，即超文本标记语言（Hyper Text Markup Language）</p>
