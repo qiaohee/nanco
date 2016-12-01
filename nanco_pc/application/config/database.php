@@ -75,12 +75,12 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'qdm163657457.my3w.com',
-	'username' => 'qdm163657457',
-	'password' => '51yunlian',
-	'database' => 'qdm163657457_db',
+	'hostname' => '127.0.0.1',
+	'username' => 'root',
+	'password' => 'root',
+	'database' => 'motors',
 	'dbdriver' => 'mysqli',
-	'dbprefix' => 'wr_',
+	'dbprefix' => 'wl_',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,
