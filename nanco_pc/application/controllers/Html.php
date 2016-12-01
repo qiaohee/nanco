@@ -25,8 +25,11 @@ class Html extends CI_Controller {
 	public function html_tutorial()
 	{
 		//分类
-		$type = $this->comm->findAll("type",array("parentid"=>0));
+		$type = $this->comm->find("type",array("id"=>11));
+		$son_type = $this->comm->findAll("type",array("parentid"=>$type['id']));
+
 		$data['type'] = $type;
+		$data['son_type'] = $son_type;
 
 		$this->load->view('header',$data);
 		$this->load->view('html/tutorial');

@@ -26,6 +26,14 @@ class Main extends CI_Controller {
 	{
 		//分类
 		$type = $this->comm->findAll("type",array("parentid"=>0));
+
+		//html分类
+		foreach($type as $k=>$v)
+		{
+			$html_type = $this->comm->findAll("type",array("parentid"=>$v['id']));
+			$type[$k]['son_type'] = $html_type;
+			$type[$k]['son_num'] = count($html_type);
+		}
 		$data['type'] = $type;
 
 		$this->load->view('header',$data);

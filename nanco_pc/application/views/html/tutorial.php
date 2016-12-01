@@ -7,10 +7,10 @@
 			<aside class="span2 page-sidebar">
 				<section class="widget">
 					<div class="quick-links-widget">
-						<h3 class="title">全部教程</h3>
+						<h3 class="title">HTML 教程</h3>
 						<ul id="menu-quick-links" class="menu clearfix">
-							<?php foreach($type as $k=>$v){?>
-							<li><a href="<?php echo $v['linkurl'];?>"><?php echo $v['typename'];?></a></li>
+							<?php foreach($son_type as $k=>$v){?>
+							<li><a href="<?php echo site_url('/'.$type['link'].'/'.$type['link'].'_'.$v['linkurl']);?>"><?php echo strtoupper($type['link']).' '.$v['typename'];?></a></li>
 							<?php }?>
 						</ul>
 					</div>
