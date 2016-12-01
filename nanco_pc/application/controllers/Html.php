@@ -31,9 +31,9 @@ class Html extends CI_Controller {
 		$data['type'] = $type;
 		$data['son_type'] = $son_type;
 
-		$data['title'] = "W3CRUN - 查BUG , 从这里开始!";
-		$data['keywords'] = "w3crun,w3c,w3cschool,HTML,CSS,PHP,DOM,JavaScript,jQuery,XML,AJAX,ASP.NET,W3C,MySQL,SQL,jquery mobile,bootstrap,Python,jquery easyui,jquery ui,angularjs";
-		$data['description'] = "w3crun是一个BUG查询及文档查询网站, 包括HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识文档和BUG实例。";
+		$data['title'] = "HTML 教程";
+		$data['keywords'] = "w3crun,w3c,w3cschool,HTML";
+		$data['description'] = "HTML 教程- (HTML5 标准)您可以使用 HTML 来建立自己的 WEB 站点。在w3crun教程中，您将学习如何使用 HTML 来创建站点。HTML 易学习！相信您能很快学会它！，切记注意细节，w3crun。";
 
 		$type_all = $this->comm->findAll("type",array("parentid"=>1));
 		$data['type_all'] = $type_all;
@@ -52,9 +52,9 @@ class Html extends CI_Controller {
 		$data['type'] = $type;
 		$data['son_type'] = $son_type;
 
-		$data['title'] = "W3CRUN - 查BUG , 从这里开始!";
+		$data['title'] = "HTML 教程";
 		$data['keywords'] = "w3crun,w3c,w3cschool,HTML,CSS,PHP,DOM,JavaScript,jQuery,XML,AJAX,ASP.NET,W3C,MySQL,SQL,jquery mobile,bootstrap,Python,jquery easyui,jquery ui,angularjs";
-		$data['description'] = "w3crun是一个BUG查询及文档查询网站, 包括HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识文档和BUG实例。";
+		$data['description'] = "HTML 教程- (HTML5 标准)您可以使用 HTML 来建立自己的 WEB 站点。在本教程中，您将学习如何使用 HTML 来创建站点。HTML 很容易学习！相信您能很快学会它！HTML 实例本教程包含了数百个 HTML 实例。使用本站的编辑器，您可以轻松实现在线修改 HTML，并查看实例运_来自HTML教程，w3crun。";
 
 		$type_all = $this->comm->findAll("type",array("parentid"=>1));
 		$data['type_all'] = $type_all;
