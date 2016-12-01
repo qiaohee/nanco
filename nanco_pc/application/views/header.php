@@ -12,7 +12,7 @@
     <meta name="keywords" content="<?php echo $keywords;?>">
     <meta name="description" content="<?php echo $description;?>">
 
-    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="shortcut icon" href="<?php echo base_url('/skin/images/favicon.png')?>" />
 
     <!-- Style Sheet-->
     <link rel="stylesheet" href="<?php echo base_url('/skin/css/style.css')?>"/>
