@@ -8,3 +8,12 @@
 {
     padding: 0 10px;
 }
+.page-sidebar{
+    border: 1px solid #f2f2f2;
+}
+.html_mind{
+    border: 2px solid #cb8579;
+    width: auto;
+    display: inline-block;
+    padding: 15px;
+}

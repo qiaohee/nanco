@@ -204,7 +204,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 13px;
   line-height: 22px;
   color: #6f7579;
@@ -212,7 +212,7 @@ body {
 }
 
 a {
-  color: #3b4348;
+  color: #cb8579;
   text-decoration: none;
 }
 
@@ -578,7 +578,7 @@ a:hover {
 }
 
 p {
-  margin: 0 0 22px;
+  margin: 0;
 }
 
 .lead {
@@ -649,7 +649,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: inherit;
   font-weight: bold;
   line-height: 22px;
-  color: #3b4348;
+  color: #cb8579;
   text-rendering: optimizelegibility;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {

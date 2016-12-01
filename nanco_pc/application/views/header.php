@@ -38,6 +38,7 @@
     <script type='text/javascript' src='<?php echo base_url('/skin/js/jquery.form.js')?>'></script>
     <script type='text/javascript' src='<?php echo base_url('/skin/js/jquery.validate.min.js')?>'></script>
     <script type='text/javascript' src='<?php echo base_url('/skin/js/custom.js')?>'></script>
+    <script type='text/javascript' src='<?php echo base_url('/skin/layer/layer.js')?>'></script>
 
 </head>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
