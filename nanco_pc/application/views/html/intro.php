@@ -10,7 +10,7 @@
 						<h3 class="title">HTML 教程</h3>
 						<ul id="menu-quick-links" class="menu clearfix">
 							<?php foreach($son_type as $k=>$v){?>
-							<li><a href="<?php echo site_url('/'.$type['link'].'/'.$type['link'].'_'.$v['linkurl']);?>"><?php echo strtoupper($type['link']).' '.$v['typename'];?></a></li>
+								<li><a href="<?php echo site_url('/'.$type['link'].'/'.$type['link'].'_'.$v['linkurl']);?>"><?php echo strtoupper($type['link']).' '.$v['typename'];?></a></li>
 							<?php }?>
 						</ul>
 					</div>
@@ -20,7 +20,7 @@
 			<!-- end of sidebar -->
 
 			<!-- start of page content -->
-			<div class="span10 page-content">
+			<div class="span8 page-content">
 
 				<article class="type-post format-standard hentry clearfix">
 					<h3>HTML 教程- (HTML5 标准)</h3>
@@ -33,9 +33,9 @@
 					</div><!-- end of post meta -->
 
 					<div>
-					<p>您可以使用 HTML 来建立自己的 WEB 站点。</p>
-					<p>在本教程中，您将学习如何使用 HTML 来创建站点。</p>
-					<p>HTML 很容易学习！相信您能很快学会它！</p>
+						<p>您可以使用 HTML 来建立自己的 WEB 站点。</p>
+						<p>在本教程中，您将学习如何使用 HTML 来创建站点。</p>
+						<p>HTML 很容易学习！相信您能很快学会它！</p>
 					</div>
 
 					<h4>HTML 实例</h4>
@@ -63,19 +63,35 @@
 					</div>
 					<br>
 					<br>
-					<a href="/html/html-intro.html">开始学习HTML!</a>
+					<a href="/html/html_intro.html">开始学习HTML!</a>
 
 				</article>
 
 			</div>
 			<!-- end of page content -->
+
+			<!-- start of sidebar -->
+			<aside class="span2 page-sidebar">
+				<section class="widget">
+					<div class="quick-links-widget">
+						<h3 class="title">分类导航</h3>
+						<ul id="menu-quick-links" class="menu clearfix">
+							<?php foreach($type_all as $k=>$v){?>
+								<li><a href="<?php echo site_url('/'.$v['link'].'/'.$v['link'].'_'.$v['linkurl']);?>"><?php echo $v['typename'];?></a></li>
+							<?php }?>
+						</ul>
+					</div>
+				</section>
+
+			</aside>
+			<!-- end of sidebar -->
 		</div>
 	</div>
 </div>
 <!-- End of Page Container -->
 
-		</div>
-	</div>
+</div>
+</div>
 </div>
 <!-- End of Page Container -->
 <script>

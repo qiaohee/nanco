@@ -435,7 +435,7 @@ li.comment > article .avatar {
 }
 .widget ul li {
   list-style: none;
-  padding: 8px 8px 8px 23px;
+  padding: 7px 3px 8px 15px;
   background: url("../images/li-arrow.png") no-repeat 8px 15px;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -476,7 +476,6 @@ li.comment > article .avatar {
 }
 .quick-links-widget .menu > li {
   border-bottom: none;
-  background-position: 5px 13px;
   float: left;
   width: 90%;
   border-top: 1px solid #efefef;

@@ -20,7 +20,7 @@
 			<!-- end of sidebar -->
 
 			<!-- start of page content -->
-			<div class="span10 page-content">
+			<div class="span8 page-content">
 
 				<article class="type-post format-standard hentry clearfix">
 					<h3>HTML 教程- (HTML5 标准)</h3>
@@ -63,12 +63,28 @@
 					</div>
 					<br>
 					<br>
-					<a href="/html/html-intro.html">开始学习HTML!</a>
+					<a href="/html/html_intro.html">开始学习HTML!</a>
 
 				</article>
 
 			</div>
 			<!-- end of page content -->
+
+			<!-- start of sidebar -->
+			<aside class="span2 page-sidebar">
+				<section class="widget">
+					<div class="quick-links-widget">
+						<h3 class="title">分类导航</h3>
+						<ul id="menu-quick-links" class="menu clearfix">
+							<?php foreach($type_all as $k=>$v){?>
+								<li><a href="<?php echo site_url('/'.$v['link'].'/'.$v['link'].'_'.$v['linkurl']);?>"><?php echo $v['typename'];?></a></li>
+							<?php }?>
+						</ul>
+					</div>
+				</section>
+
+			</aside>
+			<!-- end of sidebar -->
 		</div>
 	</div>
 </div>
