@@ -3,6 +3,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Main extends CI_Controller {
 
+	function __construct(){
+		parent::__construct();
+		$this->load->model('comm_model','comm');
+	}
 	/**
 	 * Index Page for this controller.
 	 *
@@ -20,6 +24,9 @@ class Main extends CI_Controller {
 	 */
 	public function index()
 	{
+		$type = $this->comm->find("type");
+		dump($type);
+		exit;
 		$this->load->view('header');
 		$this->load->view('index');
 		$this->load->view('footer');
