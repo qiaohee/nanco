@@ -10,7 +10,7 @@
 						<h3 class="title">HTML 教程</h3>
 						<ul id="menu-quick-links" class="menu clearfix">
 							<?php foreach($son_type as $k=>$v){?>
-							<li><a href="<?php echo site_url('/'.$type['link'].'/'.$type['link'].'_'.$v['linkurl']);?>"><?php echo strtoupper($type['link']).' '.$v['typename'];?></a></li>
+								<li><a href="<?php echo site_url('/'.$type['link'].'/'.$type['link'].'_'.$v['linkurl']);?>"><?php echo strtoupper($type['link']).' '.$v['typename'];?></a></li>
 							<?php }?>
 						</ul>
 					</div>
@@ -26,16 +26,16 @@
 					<h1>HTML 教程- (HTML5 标准)</h1>
 
 					<div class="post-meta clearfix">
-						<span class="date">25 Feb, 2013</span>
+						<span class="date">2016年12月2日</span>
 						<span class="category">收藏</span>
 						<span class="comments">赞</span>
 						<span class="like-count">分享</span>
 					</div><!-- end of post meta -->
 
 					<div>
-					<p>您可以使用 HTML 来建立自己的 WEB 站点。</p>
-					<p>在本教程中，您将学习如何使用 HTML 来创建站点。</p>
-					<p>HTML 易学习，相信您能很快学会它，切记注意细节！</p>
+						<p>您可以使用 HTML 来建立自己的 WEB 站点。</p>
+						<p>在本教程中，您将学习如何使用 HTML 来创建站点。</p>
+						<p>HTML 易学习，相信您能很快学会它，切记注意细节！</p>
 					</div>
 
 					<h4>HTML 实例</h4>
@@ -57,8 +57,8 @@
 						<span> <</span>/body><br>
 						<span> <</span>/html><br>
 					</div>
-					<div class="html_mind" id="html_mind">
-						<h1>我的第一个标题</h1><br>
+					<div class="html_mind">
+						<h1 id="html_mind">我的第一个标题</h1><br>
 						<p>我的第一个段落</p>
 					</div>
 					<br>
@@ -90,8 +90,8 @@
 </div>
 <!-- End of Page Container -->
 
-		</div>
-	</div>
+</div>
+</div>
 </div>
 <!-- End of Page Container -->
 <script>

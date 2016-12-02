@@ -871,6 +871,14 @@
     padding-right: 20px;
   }
 
+  .html_mind{
+    border: 2px solid #cb8579;
+    width: 88%;
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {

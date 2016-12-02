@@ -26,7 +26,7 @@
 					<h1>HTML 教程- (HTML5 标准)</h1>
 
 					<div class="post-meta clearfix">
-						<span class="date">25 Feb, 2013</span>
+						<span class="date">2016年12月2日</span>
 						<span class="category">收藏</span>
 						<span class="comments">赞</span>
 						<span class="like-count">分享</span>

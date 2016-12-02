@@ -394,7 +394,8 @@ li.comment > article .avatar {
 
 /* Page - Sidebar ----------------------------------------------------------------------------------------------------*/
 .page-content {
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border: 1px solid #f2f2f2;
   padding: 5px;
 }
