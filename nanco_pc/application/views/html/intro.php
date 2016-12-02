@@ -23,7 +23,7 @@
 			<div class="span8 page-content">
 
 				<article class="type-post format-standard hentry clearfix">
-					<h1>HTML 教程- (HTML5 标准)</h1>
+					<h1>HTML 简介</h1>
 
 					<div class="post-meta clearfix">
 						<span class="date">2016年12月2日</span>
@@ -57,8 +57,8 @@
 						<span> <</span>/body><br>
 						<span> <</span>/html><br>
 					</div>
-					<div class="html_mind" id="html_mind">
-						<h1>我的第一个标题</h1><br>
+					<div class="html_mind">
+						<h1 id="html_mind">我的第一个标题</h1><br>
 						<p>我的第一个段落</p>
 					</div>
 					<br>
@@ -94,11 +94,3 @@
 </div>
 </div>
 <!-- End of Page Container -->
-<script>
-	$(function(){
-		layer.tips('差点不知道，这是就是运行结果，我要努力了！', '#html_mind', {
-			tips: [1, '#cb8579'],
-			time: 0
-		});
-	})
-</script>
