@@ -644,8 +644,16 @@ a.text-success:hover {
   color: #356635;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
   margin: 11px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 22px;
+  color: #cb8579;
+  text-rendering: optimizelegibility;
+}
+h5{
+  margin: 0;
   font-family: inherit;
   font-weight: bold;
   line-height: 22px;

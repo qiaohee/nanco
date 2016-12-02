@@ -43,24 +43,27 @@
 						<p>本教程包含了数百个 HTML 实例。</p>
 						<p>使用本站的实例，您可以轻松的查看运行结果。</p>
 					</div>
-					<div class="html_mind_two">
+					<div class="html_mind">
 						<p class="p1"><i>注意：对于中文网页需要使用<span> <</span>meta charset="utf-8"<span>> </span> 声明编码，否则会出现乱码。</i></p>
 					</div>
 					<br>
 					<h4>实例</h4>
 					<div class="html_mind">
-						&lt;!DOCTYPE html&gt;<br>
-						&lt;html&gt;<br>
-						&lt;body&gt;<br>
-						&lt;h1&gt;我的第一个标题&lt;/h1&gt;<br>
-						&lt;p&gt;我的第一个段落。&lt;/p&gt;<br>
-						&lt;/body&gt;<br>
-						&lt;/html&gt;<br>
+						<span> <</span>!DOCTYPE html><br>
+						<span> <</span>html><br>
+						<span> <</span>body><br>
+						<span> <</span>h1>我的第一个标题<span><</span>/h1><br>
+						<span> <</span>p>我的第一个段落<span><</span>/p><br>
+						<span> <</span>/body><br>
+						<span> <</span>/html><br>
 					</div>
 					<div class="html_mind">
 						<h1 id="html_mind">我的第一个标题</h1><br>
-						<p>我的第一个段落。</p>
+						<p>我的第一个段落</p>
 					</div>
+					<p>
+						<img src="http://www.runoob.com//html_one.png">
+					</p>
 					<br>
 					<br>
 					<a class="html_a" href="/html/html_intro.html">开始学习HTML!</a>

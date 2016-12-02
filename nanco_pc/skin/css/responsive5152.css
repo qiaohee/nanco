@@ -871,12 +871,51 @@
     padding-right: 20px;
   }
 
-  .html_mind{
+  .html_structure_one{
+    width:95%;
+    border:1px solid grey;
+    padding:5px;
+    margin:15px 0;
     border: 2px solid #cb8579;
+  }
+
+  .html_structure{
+    width:95%;
+    border:1px solid grey;
+    padding:5px;
+    margin:15px 0;
+  }
+
+  .html_mind{
+    border: 1px solid #cb8579;
     width: 88%;
     display: inline-block;
     padding: 15px;
     margin-bottom: 10px;
+  }
+
+  .html_mind_one{
+    border: 1px solid #cb8579;
+    width: 88%;
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+  .html_mind_two{
+    border: 1px solid #cb8579;
+    width: 88%;
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+  .html_mind_one > .p2{
+    font-size: 12px;
+  }
+
+  .html_mind_two > .p2{
+    font-size: 12px;
   }
 
   .navbar-fixed-top,
