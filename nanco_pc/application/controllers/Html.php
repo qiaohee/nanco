@@ -63,4 +63,25 @@ class Html extends CI_Controller {
 		$this->load->view('html/intro');
 		$this->load->view('footer');
 	}
+
+	public function html_editors()
+	{
+		//分类
+		$type = $this->comm->find("type",array("id"=>11));
+		$son_type = $this->comm->findAll("type",array("parentid"=>$type['id']));
+
+		$data['type'] = $type;
+		$data['son_type'] = $son_type;
+
+		$data['title'] = "HTML 教程";
+		$data['keywords'] = "w3crun,w3c,w3cschool,HTML,CSS,PHP,DOM,JavaScript,jQuery,XML,AJAX,ASP.NET,W3C,MySQL,SQL,jquery mobile,bootstrap,Python,jquery easyui,jquery ui,angularjs";
+		$data['description'] = "HTML 教程- (HTML5 标准)您可以使用 HTML 来建立自己的 WEB 站点。在本教程中，您将学习如何使用 HTML 来创建站点。HTML 很容易学习！相信您能很快学会它！HTML 实例本教程包含了数百个 HTML 实例。使用本站的编辑器，您可以轻松实现在线修改 HTML，并查看实例运_来自HTML教程，w3crun。";
+
+		$type_all = $this->comm->findAll("type",array("parentid"=>1));
+		$data['type_all'] = $type_all;
+
+		$this->load->view('header',$data);
+		$this->load->view('html/editors');
+		$this->load->view('footer');
+	}
 }

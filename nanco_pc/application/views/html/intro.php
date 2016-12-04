@@ -189,7 +189,7 @@
 					<br>
 					<br>
 					<a class="html_a" href="/html/html_intro.html">HTML 教程</a>
-					<a class="html_b" href="/html/html_intro.html">HTML 编辑器</a>
+					<a class="html_b" href="/html/html_editors.html">HTML 编辑器</a>
 
 				</article>
 
